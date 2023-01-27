@@ -1,0 +1,43 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.numeric-input {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.numeric-input-label {
+  margin-right: 10px;
+}
+
+.numeric-input-field {
+  width: 50px;
+  text-align: center;
+}
+
+.numeric-input-button {
+  width: 30px;
+  height: 30px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.numeric-input-button:hover {
+  background-color: #3e8e41;
+}
